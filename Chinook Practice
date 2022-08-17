@@ -1,4 +1,4 @@
-# In this practice I qaried data from several table in order to create sales reports.
+# In this practice I queried data from several table in order to create sales reports.
 
 SELECT * FROM chinook.genres;
 
@@ -28,3 +28,5 @@ SELECT emp.LastName, emp.Firstname, inv.InvoiceID
 FROM chinook.employees emp
 JOIN chinook.customers cust ON cust.SupportRepID = emp.EmployeeId
 Join chinook.Invoices Inv On Inv.CustomerID = cust.CustomerId;
+
+
